@@ -20,7 +20,7 @@ class Pokemon extends React.Component {
     if (!this.state.data) return <div>Loading...</div>;
     return (
       <div>
-        <h2>{this.state.data.name}</h2>
+        <h3>{this.state.data.name}</h3>
         <img
           src={this.state.data.sprites.front_default}
           alt={`${this.state.data.name} default sprite`}
