@@ -1,6 +1,5 @@
-import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import Keyboard from "../workshop/Keyboard";
+import Keyboard from "../Components/Keyboard";
 
 describe("Keyboard component", () => {
   test("The previously pressed key string is rendered", () => {

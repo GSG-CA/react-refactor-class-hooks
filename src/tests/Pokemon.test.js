@@ -1,6 +1,5 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
-import Pokemon from "../workshop/Pokemon";
+import Pokemon from "../Components/Pokemon";
 
 function mockResponse(name) {
   return {

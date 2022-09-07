@@ -14,7 +14,7 @@ class Counter extends React.Component {
     });
   render() {
     return (
-      <div>
+      <div >
         <button onClick={this.decrement} aria-label="Decrement count">
           -
         </button>
