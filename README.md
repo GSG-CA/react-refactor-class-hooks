@@ -138,7 +138,7 @@ To run some code when your component updates (i.e. is passed new props or `setSt
 
 1. Clone the project and run `npm i`
 1. `npm t` to run the test watcher
-1. Rewrite `src/Counter.js` to use hooks instead of classes
-1. Rewrite `src/Keyboard.js` to use hooks instead of classes
-1. Rewrite `src/Pokemon.js` to use hooks instead of classes
+1. Rewrite `src/Components/Counter.js` to use hooks instead of classes
+1. Rewrite `src/Components/Keyboard.js` to use hooks instead of classes
+1. Rewrite `src/Components/Pokemon.js` to use hooks instead of classes
 1. Keep all the tests passing!
